@@ -7,6 +7,14 @@ Aplikasi ini memiliki 4 halaman, setiap halaman nya memiliki tujuan yang berbeda
 3. Halaman Quiz, pada halaman ini berfungsi untuk menampilkan pertanyaan dan juga jawaban dari setiap soal, di dalam halaman ini terdapat sebuah card yang menampilkan pertanyaan dan jawaban quiz. Pertanyaan quiz akan muncul terlebih dahulu, jika card ditekan maka card akan berbalik dan menampilkan jawaban dari pertanyaan tersebut. Selain itu, di halaman ini terdapat 2 tombol yaitu tombol "next" dan juga tombol "previous" yang berfungsi untuk melanjutkan ke soal berikutnya atau kembali ke soal sebelumnya dan terakhir di halaman ini terdapat icon "love" yang berfungsi untuk "menyukai" soal-soal yang yang disukai
 4. Halaman profile, pada halaman ini berfungsi untuk nemapilkan profil dari pengguna atau user, disini juga terdapat ket berapa soal yang "disukai" kemudian terdapat keterangan sudah berapa soal yang dibuka atau dimainkan dan yang terakhir terdapat button "logout" yang berfungsi untuk keluar.
 
+Daftar Endpoint API:
+Aplikasi ini menggunakan Firebase Realtime Database yang diakses melalui protokol HTTP (REST API) dengan menambahkan ekstensi .json.
+1. Base URL
+   [https://funquiz-123-default-rtdb.firebaseio.com/](https://funquiz-123-default-rtdb.firebaseio.com/)
+2. Endpoint: Mengambil Semua Soal (Fetch Data)
+   Endpoint ini digunakan untuk mengambil seluruh database soal (Sports, History, dll) dalam satu kali request.
+   - Method: GET
+
 Adapun langkah-langkah untuk menjalankan aplikasi yaitu:
 1. Pada halaman login, user melakukan sign up terlebih dahulu untuk menyimpan akun kemudian setelah itu login
 2. Kemudian di halaman berikutnya, user dapat memilih ingin memulai quiz dengan pilihan random quiz atau quiz sesuai kategori
